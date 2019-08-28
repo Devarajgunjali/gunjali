@@ -28,7 +28,7 @@ public class BaseClass {
 	public ExcelDataProvider excel;
 	public ConfigDataProvider config;
 	public ExtentReports report;
-
+//comment
 	public ExtentTest logger;
 
 	@BeforeSuite

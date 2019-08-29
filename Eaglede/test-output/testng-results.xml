@@ -20,12 +20,12 @@
       <![CDATA[ Test Completed>>> Report generted]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="10216" started-at="2019-08-28T15:01:05Z" finished-at="2019-08-28T15:01:15Z">
+  <suite name="Suite" duration-ms="12239" started-at="2019-08-29T08:14:53Z" finished-at="2019-08-29T08:15:05Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="10216" started-at="2019-08-28T15:01:05Z" finished-at="2019-08-28T15:01:15Z">
+    <test name="Test" duration-ms="12239" started-at="2019-08-29T08:14:53Z" finished-at="2019-08-29T08:15:05Z">
       <class name="com.eagle.testcases.LoginEMB">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.eagle.testcases.LoginEMB@1b604f19]" name="setUpSuite" is-config="true" duration-ms="467" started-at="2019-08-28T20:31:04Z" finished-at="2019-08-28T20:31:05Z">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.eagle.testcases.LoginEMB@1b604f19]" name="setUpSuite" is-config="true" duration-ms="486" started-at="2019-08-29T13:44:52Z" finished-at="2019-08-29T13:44:53Z">
           <reporter-output>
             <line>
               <![CDATA[ Setting at the report and Test is geeting ready]]>
@@ -35,7 +35,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setp()[pri:0, instance:com.eagle.testcases.LoginEMB@1b604f19]" name="setp" is-config="true" duration-ms="5013" started-at="2019-08-28T20:31:05Z" finished-at="2019-08-28T20:31:10Z">
+        <test-method status="PASS" signature="setp()[pri:0, instance:com.eagle.testcases.LoginEMB@1b604f19]" name="setp" is-config="true" duration-ms="5838" started-at="2019-08-29T13:44:53Z" finished-at="2019-08-29T13:44:59Z">
           <reporter-output>
             <line>
               <![CDATA[ Trying to start browser and application ready]]>
@@ -45,11 +45,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setp -->
-        <test-method status="PASS" signature="Loginstartapplication()[pri:0, instance:com.eagle.testcases.LoginEMB@1b604f19]" name="Loginstartapplication" duration-ms="3721" started-at="2019-08-28T20:31:10Z" finished-at="2019-08-28T20:31:13Z">
+        <test-method status="PASS" signature="Loginstartapplication()[pri:0, instance:com.eagle.testcases.LoginEMB@1b604f19]" name="Loginstartapplication" duration-ms="4913" started-at="2019-08-29T13:44:59Z" finished-at="2019-08-29T13:45:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Loginstartapplication -->
-        <test-method status="PASS" signature="teardownm(org.testng.ITestResult)[pri:0, instance:com.eagle.testcases.LoginEMB@1b604f19]" name="teardownm" is-config="true" duration-ms="853" started-at="2019-08-28T20:31:13Z" finished-at="2019-08-28T20:31:14Z">
+        <test-method status="PASS" signature="teardownm(org.testng.ITestResult)[pri:0, instance:com.eagle.testcases.LoginEMB@1b604f19]" name="teardownm" is-config="true" duration-ms="854" started-at="2019-08-29T13:45:04Z" finished-at="2019-08-29T13:45:04Z">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- teardownm -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.eagle.testcases.LoginEMB@1b604f19]" name="teardown" is-config="true" duration-ms="619" started-at="2019-08-28T20:31:14Z" finished-at="2019-08-28T20:31:15Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.eagle.testcases.LoginEMB@1b604f19]" name="teardown" is-config="true" duration-ms="624" started-at="2019-08-29T13:45:04Z" finished-at="2019-08-29T13:45:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

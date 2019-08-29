@@ -10,6 +10,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReporter;
 import com.aventstack.extentreports.ExtentReports;
@@ -28,7 +29,7 @@ public class BaseClass {
 	public ExcelDataProvider excel;
 	public ConfigDataProvider config;
 	public ExtentReports report;
-//comment
+
 	public ExtentTest logger;
 
 	@BeforeSuite
@@ -42,11 +43,17 @@ public class BaseClass {
 		report.attachReporter(extent);
 		Reporter.log(" Setting done test can be start", true);
 	}
-
+    @Parameters({"browser","UrltoApp"})	
 	@BeforeClass
-	public void setp() {
+	public void setp(String browser,String UrltoApp) {
 		Reporter.log(" Trying to start browser and application ready", true);
-		driver = BrowserFactry.startApplication(driver, config.getBrowser(), config.getStringurl());// "https://portal.eagleconferencing.in/");
+		
+	//	driver = BrowserFactry.startApplication(driver, config.getBrowser(), config.getStringurl());// "https://portal.eagleconferencing.in/"); 1st methode .config
+		
+		driver = BrowserFactry.startApplication(driver,browser, UrltoApp);
+		
+		
+		
 		Reporter.log(" Browser and application running up", true);
 	}
 

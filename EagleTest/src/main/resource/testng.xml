@@ -1,0 +1,14 @@
+
+<suite name="eagletest">
+    <test name ="test1">
+      
+
+                
+                <classes>
+                    <class name="parmetertest.ParmeterTestclass"/>
+                        
+                   
+                </classes>
+      
+    </test>
+</suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Eagleconferenciong.in Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Eagleconferencing Test Cases">
+		<classes>
+			<class name="com.eagle.qa.testcases.SelectingEmail_group" />
+			<class name="com.eagle.qa.testcases.forgotPassword" />
+			<class name="com.eagle.qa.testcases.Create_Group" />
+			<class name="com.eagle.qa.testcases.Log_out" />
+			<class name="com.eagle.qa.testcases.WebConference_invitation" />
+			<class name="com.eagle.qa.testcases.Add_Contacts" />
+			<class name="com.eagle.qa.testcases.Moderator" />
+			<class name="com.eagle.qa.testcases.Deletegroup_one_by_one" />
+			<class name="com.eagle.qa.testcases.Payment_test" />
+			<class name="com.eagle.qa.testcases.Profile_page_testcase" />
+			<class name="com.eagle.qa.testcases.Conference_both" />
+			<class name="com.eagle.qa.testcases.Change_Passwordtest" />
+
+			<class name="com.eagle.qa.testcases.Aoudio_conference" />
+			<class name="com.eagle.qa.testcases.RecorderTestcase" />
+			<class name="com.eagle.qa.testcases.Log_and_report" />
+			<class name="com.eagle.qa.testcases.WebConference_invitation" />
+			<class name="com.eagle.qa.testcases.Home_Information" />
+			<class name="com.eagle.qa.testcases.Registration_page" />
+			<class name="com.eagle.qa.testcases.Login_page" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Eagleconferenciong.in Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Eagleconferencing Test Cases(failed)">
+    <classes>
+      <class name="com.eagle.qa.testcases.RecorderTestcase">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.RecorderTestcase -->
+      <class name="com.eagle.qa.testcases.Create_Group">
+        <methods>
+          <include name="delete"/>
+          <include name="setup"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.Create_Group -->
+      <class name="com.eagle.qa.testcases.Deletegroup_one_by_one">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.Deletegroup_one_by_one -->
+      <class name="com.eagle.qa.testcases.Moderator">
+        <methods>
+          <include name="terdown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.Moderator -->
+      <class name="com.eagle.qa.testcases.Add_Contacts">
+        <methods>
+          <include name="Deletecontacts"/>
+          <include name="TearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.Add_Contacts -->
+      <class name="com.eagle.qa.testcases.Aoudio_conference">
+        <methods>
+          <include name="reardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.Aoudio_conference -->
+      <class name="com.eagle.qa.testcases.forgotPassword">
+        <methods>
+          <include name="Setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.forgotPassword -->
+      <class name="com.eagle.qa.testcases.Profile_page_testcase">
+        <methods>
+          <include name="setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.Profile_page_testcase -->
+      <class name="com.eagle.qa.testcases.WebConference_invitation">
+        <methods>
+          <include name="setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.WebConference_invitation -->
+      <class name="com.eagle.qa.testcases.SelectingEmail_group">
+        <methods>
+          <include name="setup"/>
+          <include name="tearbrowser"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.SelectingEmail_group -->
+      <class name="com.eagle.qa.testcases.Home_Information">
+        <methods>
+          <include name="setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.Home_Information -->
+      <class name="com.eagle.qa.testcases.Registration_page">
+        <methods>
+          <include name="TearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.Registration_page -->
+      <class name="com.eagle.qa.testcases.Change_Passwordtest">
+        <methods>
+          <include name="setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.Change_Passwordtest -->
+      <class name="com.eagle.qa.testcases.Payment_test">
+        <methods>
+          <include name="Setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.Payment_test -->
+      <class name="com.eagle.qa.testcases.Login_page">
+        <methods>
+          <include name="Teardown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.Login_page -->
+      <class name="com.eagle.qa.testcases.Log_and_report">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.Log_and_report -->
+      <class name="com.eagle.qa.testcases.Conference_both">
+        <methods>
+          <include name="setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.Conference_both -->
+      <class name="com.eagle.qa.testcases.Log_out">
+        <methods>
+          <include name="Teardown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.eagle.qa.testcases.Log_out -->
+    </classes>
+  </test> <!-- Eagleconferencing Test Cases(failed) -->
+</suite> <!-- Failed suite [Eagleconferenciong.in Application Test Automation Test Suite] -->
